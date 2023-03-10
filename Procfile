@@ -1,0 +1,1 @@
+web: gunicorn time_table_generator.wsgi
