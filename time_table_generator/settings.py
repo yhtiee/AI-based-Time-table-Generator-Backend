@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_=!q@8$%aayb9!o7y=_-p%mu__a@n4a#r-#wf8wuf(byre0_o=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["web-production-dc85.up.railway.app"]
+ALLOWED_HOSTS = ["ai-based-time-table-generator-backend.up.railway.app"]
 
 
 # Application definition
@@ -103,7 +103,7 @@ CORS_ALLOW_HEADERS = [
     
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-dc85.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://ai-based-time-table-generator-backend.up.railway.app']
 
 ROOT_URLCONF = 'time_table_generator.urls'
 
